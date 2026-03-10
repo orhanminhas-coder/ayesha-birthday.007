@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+<title>Happy Birthday Ayesha</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div id="countdown">
+
+<h1 id="counter">3</h1>
+
+</div>
+
+
+<div id="main" class="hidden">
+
+<h1 class="title">Happy Birthday Ayesha ❤️</h1>
+
+<button id="startBtn">Open My Surprise</button>
+
+<div id="hearts"></div>
+
+</div>
+
+
+<div id="bookSection" class="hidden">
+
+<div class="book">
+
+<div class="page">
+<img src="1.jpg">
+<p>You are the most beautiful girl ❤️</p>
+</div>
+
+<div class="page">
+<img src="2.jpg">
+<p>Your smile makes my world bright</p>
+</div>
+
+<div class="page">
+<img src="3.jpg">
+<p>You are special for me</p>
+</div>
+
+<div class="page">
+<img src="4.jpg">
+<p>Happy Birthday My Ayesha 🎂</p>
+</div>
+
+</div>
+
+<button id="letterBtn">Open Secret Letter 💌</button>
+
+</div>
+
+
+<div id="letter" class="hidden">
+
+<h2 id="message"></h2>
+
+</div>
+
+
+<audio id="music" src="music.mp3"></audio>
+
+<script src="script.js"></script>
+
+</body>
+</html>
